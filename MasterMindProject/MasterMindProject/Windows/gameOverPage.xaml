@@ -1,0 +1,14 @@
+﻿<Page x:Class="MasterMindProject.gameOverPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+	Title="gameOverPage">
+    
+    <Grid>
+        <TextBox Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="Bottom" TextAlignment="Center" FontSize="48" Margin="0,0,10,281" RenderTransformOrigin="0.5,0.5" Width="790"/>
+        <Button Content="Return" Click="resetClick" Name="resetButton" HorizontalAlignment="Center" Margin="322,381,328,0"  VerticalAlignment="Top" Width="150" Height="40"/>
+    </Grid>
+</Page>
