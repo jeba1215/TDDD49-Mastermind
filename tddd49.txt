@@ -1,5 +1,0 @@
-ingen guikod i engine, oberoende av wpf.
-ai ska också vara wpf oberoende.
-liveuppdatering av filförändringar.
-spara activerow.
-
